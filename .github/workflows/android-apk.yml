@@ -37,9 +37,6 @@ jobs:
       - name: Install frontend dependencies
         run: npm install
 
-      - name: Install Tauri CLI
-        run: npm install --save-dev @tauri-apps/cli
-
       - name: Initialize Android project
         run: npx tauri android init
 
