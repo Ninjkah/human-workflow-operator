@@ -10,10 +10,10 @@ name = "yt_human_workflow_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2.5.0" }
+tauri-build = { version = "2.6.3" }
 
 [dependencies]
-tauri = { version = "2.8.0", features = [] }
+tauri = { version = "2.11.1", features = [] }
 tauri-plugin-opener = "2.5.0"
 
 [features]
